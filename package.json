@@ -1,0 +1,31 @@
+{
+  "name": "react-native-mesa",
+  "version": "1.0.0",
+  "description": "Mesa component for React Native",
+  "main": "dist/index.js",
+  "react-native": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/"],
+  "repository": "https://github.com/seshchat/react-native-mesa",
+  "author": "William Gibson <william@sesh.chat>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "yarn build && yarn publish"
+  },
+  "keywords": [
+    "mesa",
+    "react-native"
+  ],
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.2",
+    "mesa-js-client": "^1.4.4",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-native": "^0.62.11",
+    "typescript": "^3.9.3"
+  }
+}
