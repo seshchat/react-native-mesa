@@ -4,12 +4,12 @@
 ## Installation
 This module library is available on the [NPM registry](https://www.npmjs.com/package/react-native-mesa). To install, run:
 ```bash
-npm i react-native-mesa --save
+npm i @seshchat/react-native-mesa --save
 ```
 If you're using [Yarn](https://yarnpkg.com), run:
 
 ```bash
-yarn add react-native-mesa
+yarn add @seshchat/react-native-mesa
 ```
 
 ## Setup
@@ -154,4 +154,4 @@ export default function MessageBar({ sendMessage }) {
 ```
 
 ## Questions / Issues
-If you have an issues with `react-native-better-image`, please either open a GitHub issue or contact a maintainer
+If you have an issues with `react-native-mesa`, please either open a GitHub issue or contact a maintainer

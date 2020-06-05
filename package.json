@@ -1,6 +1,6 @@
 {
-  "name": "react-native-mesa",
-  "version": "1.0.2",
+  "name": "@seshchat/react-native-mesa",
+  "version": "1.0.0",
   "description": "Mesa component for React Native",
   "main": "dist/index.js",
   "react-native": "dist/index.js",
