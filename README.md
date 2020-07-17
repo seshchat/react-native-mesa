@@ -4,12 +4,12 @@
 ## Installation
 This module library is available on the [NPM registry](https://www.npmjs.com/package/react-native-mesa). To install, run:
 ```bash
-npm i @seshchat/react-native-mesa --save
+npm i react-native-mesa --save
 ```
 If you're using [Yarn](https://yarnpkg.com), run:
 
 ```bash
-yarn add @seshchat/react-native-mesa
+yarn add react-native-mesa
 ```
 
 ## Setup

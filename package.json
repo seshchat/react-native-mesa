@@ -1,5 +1,5 @@
 {
-  "name": "@seshchat/react-native-mesa",
+  "name": "react-native-mesa",
   "version": "1.0.0",
   "description": "Mesa component for React Native",
   "main": "dist/index.js",
