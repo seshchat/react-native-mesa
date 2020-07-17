@@ -117,16 +117,18 @@ You then need to connect your component with `connectMesa`. After this is comple
 ```jsx
 import { connectMesa } from 'react-native-mesa'
 
-function MessageBar({ sendMessage }) {
-  function onSend(content) {
-    sendMessage({
+class MessageBar extends Component {
+  onSend(content) {
+    this.props.sendMessage({
       opcode: 0,
       data: { content },
       type: 'NEW_MESSAGE'
     })
   }
 
-  return <Input onSend={onSend} />
+  render() {
+    return <Input onSend={this.onSend} />
+  }
 }
 
 const ConnectedMessageBar = connectMesa(MessageBar)
